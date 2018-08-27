@@ -1,0 +1,3 @@
+start cmd /k java -classpath "C:\Users\My computer\Desktop\jackson\json-simple-1.1.jar";"C:\Users\My computer\Desktop\jackson\jackson-all-1.9.0.jar";"C:\Users\My computer\Desktop\projectsjavee\Chat2\bin" main.Main server 127.0.0.1 %1 %2
+start cmd /k java -classpath "C:\Users\My computer\Desktop\jackson\json-simple-1.1.jar";"C:\Users\My computer\Desktop\jackson\jackson-all-1.9.0.jar";"C:\Users\My computer\Desktop\projectsjavee\Chat2\bin" main.Main client 127.0.0.1 %1 %2
+start cmd /k java -classpath "C:\Users\My computer\Desktop\jackson\json-simple-1.1.jar";"C:\Users\My computer\Desktop\jackson\jackson-all-1.9.0.jar";"C:\Users\My computer\Desktop\projectsjavee\Chat2\bin" main.Main client 127.0.0.1 %1 %2
